@@ -1,0 +1,616 @@
+body, html{
+    height: 100%;
+    margin: 0 ;
+    padding:0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+
+}
+body{
+    background: url("background0.jpg") no-repeat;
+    
+    background-size: auto 100%;
+   
+    background-repeat: no-repeat;
+    background-position: right top;
+ 
+}
+
+#background {
+    position: absolute;
+    top: 100%;
+       
+}
+
+.logo{	
+	float:left;
+    margin-top: 15px;
+    margin-left: 50px;    
+}
+
+
+
+nav{
+    padding: 15px 0px;
+    width: 100%;
+}
+
+ul{
+    padding: 0;
+    position: relative;
+    
+    list-style-type: none;
+    float: right; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    
+    
+    
+    
+}
+
+ul li {
+    display: inline-block;
+    /* added this line for child absolute positioning */
+    position: relative;
+    
+    padding: 5px 5px;
+    color: black;    
+    margin: 0px 0px 0px 1px;
+    
+}
+
+
+
+.home{
+    
+    padding: 4px 15px;
+    
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+ 
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+}
+
+.home:hover{
+    background-color: #cce0ff;
+}
+
+
+.events{
+    
+    padding: 4px 15px;
+    
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+ 
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+}
+
+.events:hover{
+    background-color: #cce0ff;
+}
+
+.activities{
+    
+    padding: 4px 15px;
+    
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+ 
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+}
+
+.activities:hover{
+    background-color: #cce0ff;
+}
+
+.contact{
+   
+    padding: 4px 15px;
+    
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+ 
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+    
+}
+
+
+.contact:hover{
+    background-color: #cce0ff;
+}
+
+.panel{
+        
+    padding: 4px 15px;
+    
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+ 
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+
+
+}
+.panel:hover{
+    background-color: #cce0ff;
+    
+}
+
+
+ul li ul {
+    
+    position: absolute;
+    background: whitesmoke;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    
+    transition: all 0.5s ease;
+    
+    left: 0;
+     /* same as li height so that there is no space between Panel and the ul to preserve hover */
+    top: 1.75rem;
+  
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+ 
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+    /* dropdown  */
+    margin: 10px 24px;
+	margin-left: 20px;
+  }
+
+
+.covid{
+    
+    display: inline-block;
+    padding: 4px 10px;
+    /* background:#7ac2ff; */
+    background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,  #c471ed, #f64f59); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+,
+   Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: -25%;
+    
+    
+    text-decoration: none;
+    
+    
+    color:black;
+    
+    transition: 0.2s;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+
+.container {
+    text-align: left;
+    width: 60%;
+    margin: 140px 90px;
+
+}
+
+h1{
+    font-size: 3.2em;
+    font-weight: 750;
+}
+
+.container p{
+    font-size: 1.3em;
+    line-height: 1.4em;
+
+      
+}
+
+.container a
+{
+    display: inline-block;
+    font-size: 1em;
+    background:#7ac2ff;
+    padding: 10px 30px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-weight: 650;
+    margin-top: 10px;
+    color:black;
+    letter-spacing: 0px;
+    transition: 0.2s;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.container a:hover{
+    letter-spacing: 6px;
+
+}
+
+
+
+
+#section{
+
+    background-size: auto 100%;  
+  
+}
+section .history{
+    height: 150vh;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.s-history img{	
+	float:left;
+    
+    height: 400px ;
+
+    width: 450px; 
+     
+    margin-top: 130px;
+    margin-left: 50px;  
+    
+   
+}
+
+
+
+
+.s-container {
+    text-align: left;
+    
+    width: 40%; /* Set the width of the positioned div */
+   
+
+    display: inline-block;
+  
+    background: whitesmoke;
+   
+    
+    /* box */
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+
+    text-decoration: none;
+    /* text position */
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    
+    color:black;
+    letter-spacing: 0px;
+   
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+    font-family: Arial, Helvetica, sans-serif; 
+   
+
+}
+
+.s-container h1{
+    font-size: 2.5em;
+    font-weight: 750;
+}
+
+.s-container p{
+    font-size: 0.9em;
+    line-height: 1.4em;      
+}
+section .activities{
+    height: 250vh;
+}
+
+.ac-container {
+    text-align: left;
+
+    display: inline-block;
+
+    text-decoration: none;
+    /* text position */
+    /* position: ; */
+    margin-top: 20vh;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    margin-right: 70px;
+    
+    color:black;
+    letter-spacing: 0px;
+ 
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.ac-container h1{
+    font-size: 2.5em;
+    font-weight: 750;
+}
+
+.ac-container p{
+    font-size: 0.9em;
+    line-height: 1.4em;
+    font-weight: 550;
+
+      
+}
+
+/* puts full image in a certain position */
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px; 
+    display: block;
+}
+
+.ml-container{	
+	float:left;
+    
+    height: 250px ;
+    width: 450px; 
+     /* changed to solve that error  */
+    margin-top: 1vh; 
+    margin-left: 70px;   
+   
+    text-align: left;
+    
+    background: whitesmoke;
+       
+    /* box */
+    padding-top: 0px;
+    padding-right: 395px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    text-decoration: none;
+  
+    color:black;
+    letter-spacing: 0px;
+   
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+   
+    font-family: Arial, Helvetica, sans-serif; 
+   
+
+}
+
+.ml-container h2{
+    font-size: 2.3em;
+    font-weight: 450;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 360px;
+    margin-bottom: 60px;
+    margin-right: 70px;
+
+}
+
+.ml-container p{
+    font-size: 0.9em;
+    line-height: 1.4em;  
+    
+    
+    position: absolute;
+    
+    margin-top: -170px;
+    margin-left: 360px;  
+    
+    margin-right: 470px;
+    margin-bottom: 60px;
+}
+
+.ml-container a{
+    display: inline-block;
+    font-size: 0.9em;
+    background:#7ac2ff;
+    padding: 5px 15px;
+        
+    text-decoration: none;
+    font-weight: 550;
+    /* margin-top: 10px; */
+    color:black;
+    letter-spacing: 0px;
+    transition: 0.2s;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+
+    position: absolute;
+    
+    margin-top: -90px;
+    margin-left: 360px;  
+    
+    margin-right: 470px;
+    margin-bottom: 60px;
+
+
+}
+
+.cad-container{	
+	float:right;
+    
+    height: 200px ;
+    width: 290px; 
+     /* changed to solve that error  */
+    margin-top: 1vh;
+    margin-right: 90px;   
+   
+    text-align: left;
+      
+    background: whitesmoke;
+   
+    
+    /* box */
+    padding-top: 0px;
+    padding-bottom: 180px;
+    padding-right: 0%;
+    padding-left: 0px;
+
+    text-decoration: none;
+  
+    color:black;
+    letter-spacing: 0px;
+   
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+   
+    font-family: Arial, Helvetica, sans-serif; 
+   
+}
+
+.cad-container h2{
+    font-size: 1.5em;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 160px;
+    margin-right: 40px;
+
+}
+
+.cad-container p{
+    font-size: 0.9em;
+    line-height: 1.4em;  
+    
+    
+    position: absolute;
+    
+    margin-top: 70px;
+    margin-left: 10px;  
+    
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.cad-container a{
+    display: inline-block;
+    font-size: 0.9em;
+    background:#7ac2ff;
+    padding: 5px 15px;
+        
+    text-decoration: none;
+    font-weight: 550;
+    /* margin-top: 10px; */
+    color:black;
+    letter-spacing: 0px;
+    transition: 0.2s;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+
+    position: absolute;
+    
+    margin-top: 125px;
+    margin-left: 10px;  
+    
+    margin-right: 70px;
+    margin-bottom: 60px;
+
+
+}
+
+
+.more-text{
+    text-align: left;
+
+    /* display: inline-block; */
+
+    text-decoration: none;
+    /* text position */
+    position: absolute;
+    margin-top: 48vh;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    
+    color:black;
+    letter-spacing: 0px;
+ 
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+
+.more-text p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 550;
+      
+}
+
+.more-text a
+{
+    display: inline-block;
+    font-size: 1em;
+    background:#7ac2ff;
+    padding: 10px 30px;
+   
+    text-decoration: none;
+    font-weight: 650;
+    margin-top: 7px;
+    /* changed to solve that error  */
+    margin-bottom: 20vh;
+    color:black;
+    letter-spacing: 0px;
+    transition: 0.2s;
+    border-radius: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.more-text a:hover{
+    letter-spacing: 2px;
+
+}

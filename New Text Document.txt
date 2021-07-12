@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIST Einthoven Club</title>
+    <link rel = "icon" type = "image/png" href = "clubicon.png">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- <script src="NavScript.js"></script> -->
+
+    
+</head>
+<body>
+    
+    <!-- <header> -->
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo1.png">
+    
+                    <img src="logo2.gif">
+                </a>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="home">Home</a></li>
+                    <li><a href="#" class="events">News & Events</a></li>
+                    
+                    <li><a href="#" class="activities">Activities</a></li>
+                    
+                    
+                  
+                    <li><a href="#" class="panel">Panel</a>
+                        <ul class="dropdown">
+                            <li><a href="#">2021</a></li>
+                            <li><a href="#">2020</a></li>
+                            
+                        </ul>
+                    </li>
+                   
+                    <li><a href="#" class="contact">Contact Us</a></li>
+                    <li><a href="covid.html" class="covid">About COVID19 </a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        
+        <div class="container">
+            <h1>We Envision To Acquire, Act & Achieve </h1>
+            <p>The vision of MIST Einthoven Club is to help the members to acquire knowledge about life science and 
+                healthcare technologies, solidify the acquired knowledge through various activities and build an 
+                understanding of how it will help them achieve their goals.</p>
+                 <a href="membership.html">Become a Member</a>
+    
+        </div>
+    <!-- </header> -->
+
+    <section id="history">
+        <div class="s-history">
+            <img src="Looking_history.png">
+        </div>
+    
+    
+     
+        <div class="s-container">
+            <h1>Have a Look on Our History </h1>
+            <p>MIST Einthoven Club was established in 2017 by the students of the Department of Biomedical 
+                Engineering (BME) of Military Institute of Science and Technology (MIST).</p>
+    
+                <p>The name “Einthoven” has evolved from an inverted imaginary equilateral triangle formed by three 
+                limb leads placed in a trigonal shape, used in electrocardiography. It is formed by two shoulder 
+                and pubis with the heart at the center and has been named after Willem Einthoven.</p>
+                
+            <p>MIST Einthoven Club consists of a group of enthusiasts, who are eager to work collectively 
+                in the biomedical field, to develop ground-breaking solutions to the modern problems in the 
+                health sector of Bangladesh. With this agenda in mind, the club has time and again arranged 
+                many seminars to facilitate knowledge sharing and detailed discussion about challenges faced 
+                by the patients and the operators in the hospitals and other organizations. Our club members 
+                are willing to implement their understandings and capabilities to strengthen the nation’s health sector.</p>
+                 
+    
+        </div>
+    </section>
+
+    <section id="activities">
+        <div class="ac-container">
+            <h1>Our Club Activities</h1>
+            <p>We aim for our club activities to cover different aspects related to application of Engineering Principles
+                 in Medical Science. Currently our members are working on different such aspects which allows them to
+                  both learn and apply their knowledge and intelligence on Engineering challenges relating to Medical
+                   Science. Some examples of the subjects on which we worked/are currently working on are given below.</p>
+                 
+    
+        </div>
+    
+        <div class="ml-container">
+           
+            <img src="ML .jpg">
+            
+            <h2>Machine Learning</h2>
+            <p> Our club members trained a neural network of a dataset containing pictures of x-ray, 
+                        classified into two categories. Pneumonia and Normal. They also developed.....</p>
+            <a href="https://www.misteinthovenclub.com/activities#h.fuiw2x5kit8o">Read More</a>            
+    
+            
+        </div>
+    
+    
+        <div class="cad-container">
+           
+            <img src="cad.jpg">
+            
+            <h2>CAD(Computer Aided 
+                <br>Design)</h2>
+            <p>Here are some designs we did for both <br>learning purposes and as projects.....</p>
+            <a href="https://www.misteinthovenclub.com/activities#h.7z7hsgtnyce5">Read More</a>            
+    
+            
+        </div>
+        <div class="more-text">
+            
+            <p>If you want to see more activities of our club, you can
+                press the link below.
+            </p>
+                 <a href="https://www.misteinthovenclub.com/activities#h.qikcl53nlaq6">See More Activities</a>
+    
+        </div>
+    </section>
+    
+
+  
+        
+       
+        
+        
+
+
+
+</body>
+</html>
